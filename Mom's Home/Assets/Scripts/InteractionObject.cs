@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class InteractionObject : MonoBehaviour
 {
+
+    public bool inventory;
+
     public void DoInteraction()
     {
         //Picked up and put in inventory
